@@ -5,7 +5,6 @@
  * Company        : El-ARABY Research and Development Center
  * Device(s)      : ESP32_S2_SOLO_2_N4R2
  * Creation Date  : 17 August 2024
- * @COPYRIGHT 2025 El-ARABY R&D Center. All rights reserved.
  *********************************************************************************************************************/
 
 #ifndef MCAL_ESP32_S2_SOLO_2_N4R2_UART_H_
