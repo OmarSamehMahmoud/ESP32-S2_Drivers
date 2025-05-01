@@ -120,4 +120,4 @@ uint8_t calculate_fcc(const uint8_t *data, size_t length);
 }
 #endif
 
-#endif /* MCAL_ESP32_S2_SOLO_2_N4R2_UART_H_ */
+#endif /*MCAL_ESP32_S2_SOLO_2_N4R2_UART_H_*/
