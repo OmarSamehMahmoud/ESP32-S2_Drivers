@@ -6,8 +6,6 @@
  Device(s)      : ESP32_S2_SOLO_2_N4R2
  Creation Date  : 16/08/2024
  Testing Date   : 
- @COPYRIGHT 2025 El-ARABY Research and development center.
- all rights reserved
 *********************************************************************************************************************************/
 #include "MCAL_ESP32_S2_SOLO_2_N4R2_GPIO.h"
 
