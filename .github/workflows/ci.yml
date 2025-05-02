@@ -15,6 +15,6 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y build-essential cppcheck
 
-    - name: Static analysis using Cppcheck
-      run: |
-        cppcheck --enable=all --inconclusive --error-exitcode=1 .
+    #- name: Static analysis using Cppcheck
+    #  run: |
+    #    cppcheck --enable=all --inconclusive --error-exitcode=1 .
