@@ -121,8 +121,8 @@ void GPIO_Value_Set(tpin pin, tlong value);
  *
  * This function retrieves the current value of a specified GPIO pin.
  *
- * @param pin The GPIO pin to read.
- * @return tlong The current value of the GPIO pin.
+ * @param input pin The GPIO pin to read.
+ * @return input tlong The current value of the GPIO pin.
  */
 tbyte GPIO_Value_Get(tpin pin);
 
