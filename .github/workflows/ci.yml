@@ -1,32 +1,24 @@
-name: C Code Check
+# .github/workflows/c-check.yml
+name: C Code Lint
 
-on:
-  push:
-    paths:
-      - '**.c'
-      - '**.h'
-  pull_request:
-    paths:
-      - '**.c'
-      - '**.h'
+on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-    - name: Install dependencies
+    - name: Install GCC and Cppcheck
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential cppcheck
 
-    - name: Compile check (gcc)
+    - name: Syntax check using GCC
       run: |
-        find . -name '*.c' | xargs -I {} gcc -fsyntax-only {}
+        find . -name "*.c" | xargs -I{} gcc -fsyntax-only {}
 
-    - name: Static Analysis (cppcheck)
+    - name: Static analysis using Cppcheck
       run: |
         cppcheck --enable=all --inconclusive --error-exitcode=1 .
