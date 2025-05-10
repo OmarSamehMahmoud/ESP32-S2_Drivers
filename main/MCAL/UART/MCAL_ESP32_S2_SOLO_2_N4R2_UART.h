@@ -1,13 +1,11 @@
 /******************************************************************************************************************************
-File Name      : MCAL_ESP32_S2_SOLO_2_N4R2_UART.C
+File Name      : MCAL_ESP32_S2_SOLO_2_N4R2_UART.H
 Description    : This file as Header for (UART)
 Author         : Omar Sameh
 Tester         :
 Device(s)      : ESP32_S2_SOLO_2_N4R2
 Creation Date  : 17/08/2024
 Testing Date   :
-@COPYRIGHT 2016 El-ARABY Research and development center.
-all rights reserved
 *********************************************************************************************************************************/
 #ifndef MCAL_ESP32_S2_SOLO_2_N4R2_UART_H_
 #define MCAL_ESP32_S2_SOLO_2_N4R2_UART_H_
