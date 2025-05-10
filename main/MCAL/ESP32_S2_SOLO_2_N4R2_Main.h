@@ -6,8 +6,6 @@
  Device(s)      : ESP32_S2_SOLO_2_N4R2
  Creation Date  : 31/07/2024
  Testing Date   :
- @COPYRIGHT 2016 El-ARABY Research and development center.
- all rights reserved
 *********************************************************************************************************************************/
 #ifndef MCAL_ESP32_S2_SOLO_2_N4R2_MAIN_H_
 #define MCAL_ESP32_S2_SOLO_2_N4R2_MAIN_H_
