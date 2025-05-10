@@ -1,7 +1,7 @@
 /******************************************************************************************************************************
  File Name      : MCAL_General_Config.h
  Description    : This file as Header for (Device_Main)
- Author         : Sherif Elgiar
+ Author         : Omar Sameh
  Tester         :
  Device(s)      : ESP32_S2_SOLO_2_N4R2
  Creation Date  : 31/07/2024
