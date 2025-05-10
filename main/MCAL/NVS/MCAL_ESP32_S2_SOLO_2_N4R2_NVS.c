@@ -1,6 +1,6 @@
 /******************************************************************************************************************************
- File Name      : MCAL_ESP32_S2_SOLO_2_N4R2_NVS.H
- Description    : This file as Header for (NVS)
+ File Name      : MCAL_ESP32_S2_SOLO_2_N4R2_NVS.C
+ Description    : This file as Source for (NVS)
  Author         : Omar Sameh
  Tester         :
  Device(s)      : ESP32_S2_SOLO_2_N4R2
