@@ -4,7 +4,6 @@ Description    : UART Driver for ESP32-S2 with Frame Handling
 Author         : Omar Sameh
 Device(s)      : ESP32_S2_SOLO_2_N4R2
 Creation Date  : 17/08/2024
-@COPYRIGHT 2016 El-ARABY Research and Development Center. All rights reserved.
 *********************************************************************************************************************************/
  
 #include "MCAL_ESP32_S2_SOLO_2_N4R2_UART.h"
